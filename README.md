@@ -17,8 +17,7 @@ puts "Hello, #{name}"
 # => "Hello, Bob"
 ```
 
-We're not just limited to injecting simple variables, though. We can do slightly fancier things if we just think of the pound sign/curly braces (`#{}`) as delimiters that allow us to run arbitrary code in the middle of a string. For example, there is nothing preventing us from doing something like this:
-
+We're not just limited to injecting simple variables, though. We can do slightly fancier things if we just think of the pound sign/curly braces (`#{}`) as delimiters that allow us to run arbitrary code in the middle of a string. For example, there is nothing preventing us from doing something like this:m
 ```ruby
 puts "1 plus 1 is #{1 + 1}!"
 
